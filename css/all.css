@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#header{
+    background-image: url('../images/header.jpg');
+    height: 61px;
+    min-width: 100vw;
+}
+
+#employee-body{
+    background-image: url('../images/employee-body.png');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#navigation{
+    background-image: url('../images/base-navigation.png');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#grades{
+    background-image: url('../images/view-my-grades.png');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#gpa{
+    background-image: url('../images/gpa.png');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}

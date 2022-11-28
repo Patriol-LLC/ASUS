@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#logo{
+    display: flex;
+    top: 0;
+    min-width: 100vw;
+    justify-content: center;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-content{
+    font-size: 10px;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    min-height: 500px;
+}
+
+.warning{
+    color: red;
+}
+
+.form-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid  grey 2px;
+}
+
+.form-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid  grey 2px;
+}
